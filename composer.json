@@ -1,0 +1,20 @@
+{
+    "name": "mounir-holding/laravel-model-logger",
+    "description": "A a logging system that can be installed and configured as a laravel package on other laravel apis or app and capture model changes and log this changes to an external api.",
+    "require": {
+        "illuminate/database": "^10.42",
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "MounirHolding\\LaravelModelLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "daevinthierno",
+            "email": "daevinthierno@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
